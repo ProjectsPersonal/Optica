@@ -1,0 +1,22 @@
+{
+  "name": "optica",
+  "authors": [
+    "Codev asociados"
+  ],
+  "description": "Sistema de registro de optica",
+  "main": "/",
+  "license": "MIT",
+  "homepage": "/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-material-design": "^4.0.2"
+  }
+}

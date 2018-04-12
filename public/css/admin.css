@@ -1,0 +1,531 @@
+.pan1{
+  margin-right: 2%;
+  margin-left: 3%;
+  height: 14vw;
+  background: #DB6504;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.pan2{
+  margin-right: 2%;
+  height: 14vw;
+  background: #DB6504;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.pan3{
+  height: 14vw;
+  background: #DB6504;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.pan4{
+  margin-right: 2%;
+  margin-left: 3%;
+  height: 14vw;
+  background: #DB6504;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.pan5{
+  margin-right: 2%;
+  height: 14vw;
+  background: #DB6504;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.pan6{
+  height: 14vw;
+  background: #DB6504;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.pan1:hover{
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.pan2:hover{
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.pan3:hover{
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.pan4:hover{
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.pan5:hover{
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.pan6:hover{
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.pan1 .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 14%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.pan1:hover .text{
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.pan2 .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 20%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.pan2:hover .text{
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.pan3 .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 14%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.pan3:hover .text{
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.pan4 .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 14%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.pan4:hover .text{
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.pan5 .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 20%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.pan5:hover .text{
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.pan6 .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 14%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.pan6:hover .text{
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.row1{
+  margin-right: 0%;
+}
+.repsold{
+  margin-left: 3%;
+  margin-right: 2%;
+  height: 14vw;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.repsold:hover{
+  background-image: none;
+  background-color: red;
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.repsold .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 14%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.repsold:hover .text {
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.aresold{
+  height: 14vw;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.aresold:hover{
+  background-image: none;
+  background-color: red;
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.aresold .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 20%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.aresold:hover .text {
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.arraysold{
+  height: 14vw;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.arraysold:hover{
+  background-image: none;
+  background-color: red;
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.arraysold .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 10%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.arraysold:hover .text {
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.invsold{
+  margin-left: 2%;
+  height: 14vw;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.invsold:hover{
+  background-image: none;
+  background-color: red;
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.invsold .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 14%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.invsold:hover .text {
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+@media only screen and (max-width: 1200px) {
+  .pan1{
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  .pan2{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .pan3{
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  .pan4{
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  .pan5{
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  .pan6{
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  .pan1 .text{
+    padding-top: 0%;
+  }
+  .pan2 .text{
+    padding-top: 0%;
+  }
+  .pan3 .text{
+    padding-top: 0%;
+  }
+  .pan4 .text{
+    padding-top: 0%;
+  }
+  .pan5 .text{
+    padding-top: 0%;
+  }
+  .pan6 .text{
+    padding-top: 0%;
+  }
+  .repsold{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .aresold{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .invsold .text{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 1%;
+  }
+  .minsold .text{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 1%;
+  }
+  .arraysold .text{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 1%;
+  }
+  .repsold .text{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 1%;
+  }
+  .aresold .text{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 1%;
+  }
+  .invsold{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+  }
+  .row1{
+    margin: 0%;
+  }
+}

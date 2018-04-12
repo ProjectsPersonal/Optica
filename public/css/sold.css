@@ -1,0 +1,279 @@
+.minsold{
+  margin-left: 6%;
+  margin-right: 4%;
+  height: 44vw;
+  background: #DB6504;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.minsold .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 50%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.minsold:hover .text {
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.minsold:hover{
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.repsold{
+  margin-left: 6%;
+  margin-right: 4%;
+  height: 14vw;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.repsold:hover{
+  background-image: none;
+  background-color: red;
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.repsold .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 10%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.repsold:hover .text {
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.aresold{
+  height: 14vw;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.aresold:hover{
+  background-image: none;
+  background-color: red;
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.aresold .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 10%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.aresold:hover .text {
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.arraysold{
+  height: 44vw;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.arraysold:hover{
+  background-image: none;
+  background-color: red;
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.arraysold .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 50%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.arraysold:hover .text {
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.invsold{
+  margin-left: 6%;
+  width: 87.5%;
+  height: 14vw;
+  cursor: pointer;
+  padding: 0px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.invsold:hover{
+  background-image: none;
+  background-color: red;
+  transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  cursor: pointer;
+}
+.invsold .text{
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 5%;
+  color: #D4E6F1;
+  display: block;
+  text-align: center;
+  width: 100%;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 1;
+  transition: transfom opacity 1.5s;
+}
+.invsold:hover .text {
+  transform: translate(5px, 0.5vw);
+  opacity: 1;
+}
+.row1{
+  margin-right: 0%;
+}
+@media only screen and (max-width: 992px) {
+.minsold{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.arraysold{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.repsold{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.aresold{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.invsold .text{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 1%;
+}
+.minsold .text{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 1%;
+}
+.arraysold .text{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 1%;
+}
+.repsold .text{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 1%;
+}
+.aresold .text{
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 1%;
+}
+.invsold{
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
+}
+.row1{
+  margin-left: 0%;
+}
+}

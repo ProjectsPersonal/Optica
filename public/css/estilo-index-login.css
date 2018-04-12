@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+header{
+    width: 100%;
+}
+
+header img{
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+main{
+   width: 100%;
+}
+.content-form{
+    width: 90%;
+    margin: auto;
+    opacity: 10;
+    -webkit-transition: all 1000ms;
+    transition: all 1000ms;
+}
+
+.content-form h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.content-form h4{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.content-form h4 a{
+    color: #e3f2fd;
+}
+
+.content-form form{
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+/*parte de usuario*/
+
+.content-form .lbl-Usuario{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.content-form #Usuario{
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+    outline: 0px;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 20px;
+}
+
+.content-form #Usuario:focus{
+    border-bottom: 2px solid #0061ea;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    font-weight: bold;
+}
+/*parte de contraseña*/
+.content-form .lbl-Contraseña{
+    display: block;
+    position: absolute;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.content-form #Contraseña{
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+    outline: 0px;
+    border-bottom: 1px solid #e2e2e2;
+    margin-top: 40px;
+    font-size: 20px;
+}
+/*parte de recuerdame*/
+.content-recuerdame{
+    margin-top: 40px;
+}
+
+.content-recuerdame a{
+    float: right;
+    color: #0061ea;
+
+}
+/*Boton de iniciar sesion*/
+
+input[type="button"]{
+    padding: 10px 50px;
+    font-size: 20px;
+    background: white;
+    color: #28a9fa;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: 1px solid #28a9fa;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    outline: 0px;
+}
+
+input[type="button"]:hover{
+    background: #28a9fa;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+input[type="button"]:active{
+    background: #6dc5fc;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+}
